@@ -18,7 +18,7 @@ public class ADTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String url = "ldap://mel-dc2:389";
+		String url = "ldap://mel-dc2:389"; /*test*/
 		Hashtable env = new Hashtable();
 		env.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.ldap.LdapCtxFactory");
 		env.put(Context.PROVIDER_URL, url);
